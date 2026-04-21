@@ -601,17 +601,26 @@ body::before {
   line-height: 1.6;
   text-align: right;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-  text-decoration: none;
   pointer-events: auto;
-  cursor: pointer;
   transition: all 0.12s;
 }
-a.credits:hover {
-  box-shadow: 0 0 16px rgba(255, 215, 0, 0.6);
-  transform: translateY(-1px);
+.credits a { color: inherit; text-decoration: none; transition: all 0.12s; }
+.credits a.lit {
+  color: var(--green);
+  text-shadow: 0 0 4px var(--green);
 }
-a.credits:hover .lit { text-shadow: 0 0 8px var(--green); }
-.credits .lit { color: var(--green); text-shadow: 0 0 4px var(--green); }
+.credits a.lit:hover { text-shadow: 0 0 8px var(--green); }
+.credits a.gh-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 0;
+}
+.credits a.gh-link svg { width: 12px; height: 12px; display: block; }
+.credits a.gh-link:hover {
+  color: var(--neon);
+  filter: drop-shadow(0 0 6px var(--neon));
+}
 
 .hint {
   position: absolute;
