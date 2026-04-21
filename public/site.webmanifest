@@ -1,0 +1,14 @@
+{
+  "name": "TETRIS.CASA",
+  "short_name": "Tetris.Casa",
+  "description": "Floor-plan designer that plays like Tetris.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#07071a",
+  "theme_color": "#07071a",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

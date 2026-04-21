@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#07071a"/>
+  <!-- T tetromino -->
+  <g>
+    <rect x="4"  y="12" width="8" height="8" fill="#b855ff" stroke="#ffffff" stroke-opacity=".25"/>
+    <rect x="12" y="12" width="8" height="8" fill="#b855ff" stroke="#ffffff" stroke-opacity=".25"/>
+    <rect x="20" y="12" width="8" height="8" fill="#b855ff" stroke="#ffffff" stroke-opacity=".25"/>
+    <rect x="12" y="20" width="8" height="8" fill="#b855ff" stroke="#ffffff" stroke-opacity=".25"/>
+  </g>
+  <rect x="4"  y="4"  width="8" height="4" fill="#00f0ff"/>
+  <rect x="20" y="4"  width="8" height="4" fill="#ff2e9a"/>
+</svg>
